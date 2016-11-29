@@ -1,0 +1,478 @@
+@font-face {
+  font-family: "LiSu";
+  src: url("../font/LiSu/LiSu.woff") format("woff"), url("../font/LiSu/LiSu.ttf") format("truetype"), url("../font/LiSu/LiSu.eot") format("embedded-opentype"), url("../font/LiSu/LiSu.svg") format("svg"), url("../font/LiSu/LiSu.otf") format("opentype");
+}
+html,
+body,
+section,
+header,
+nav,
+footer,
+div,
+p,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+tbody,
+tr,
+th,
+td,
+form,
+select,
+option,
+textarea,
+input,
+lable,
+button,
+a,
+span,
+strong,
+em,
+var,
+img,
+i,
+b,
+big,
+small {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: white;
+  color: black;
+  font-family: "Microsoft YaHei";
+  font-size: 14px;
+}
+ol,
+ul {
+  list-style: none;
+}
+h1 {
+  font-size: 21px;
+}
+h2 {
+  font-size: 19.6px;
+}
+h3 {
+  font-size: 18.2px;
+}
+h4 {
+  font-size: 16.8px;
+}
+h5 {
+  font-size: 15.4px;
+}
+h6 {
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px black solid;
+}
+table th {
+  border: 1px black solid;
+}
+table td {
+  border: 1px black solid;
+}
+input,
+select,
+button {
+  background: none;
+  border: none;
+  color: black;
+  outline: medium;
+  font-size: 14px;
+}
+input option,
+select option,
+button option {
+  color: white;
+}
+select,
+button {
+  cursor: pointer;
+}
+img {
+  border: 0 none;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+em,
+var,
+i {
+  font-style: normal;
+}
+b {
+  font-weight: normal;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.clear {
+  clear: both;
+  height: 0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.fn {
+  float: none;
+}
+.db {
+  display: block;
+}
+.dn {
+  display: none;
+}
+.di {
+  display: inline;
+}
+.dib {
+  display: inline-block;
+  vertical-align: middle;
+}
+.dit {
+  display: inline-table;
+}
+.dtc {
+  display: table-cell;
+  vertical-align: middle;
+}
+.tac {
+  text-align: center;
+}
+.texthide {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.lisu {
+  font-family: "LiSu";
+}
+.content {
+  background: #fff url("../img/bg2.jpg") center 0 no-repeat;
+  padding-top: 38px;
+}
+.content .con {
+  margin: 0 auto;
+  width: 820px;
+}
+.content .con .warp {
+  padding: 0 10px;
+}
+.html-logo-box {
+  background: url("../img/bg1.jpg") center center no-repeat;
+  height: 302px;
+}
+.html-logo-box .html-logo {
+  background: url("../img/logo-bg.png") center bottom no-repeat;
+  height: 302px;
+}
+.top {
+  background: url("../img/top-bg.png") 0 0 repeat-x;
+  color: #ffffff;
+  height: 80px;
+}
+.top .con {
+  margin: 0 auto;
+  width: 1020px;
+}
+.top .con .warp {
+  padding: 0 10px;
+}
+.top .logo {
+  padding-top: 15px;
+}
+.top .logo a {
+  background: url("../img/top-logo.png") right center no-repeat;
+  width: 185px;
+}
+.top .logo img {
+  height: 50px;
+  width: 50px;
+}
+.top .nav {
+  height: 34px;
+  padding-top: 23px;
+}
+.top .nav li a {
+  color: #ffffff;
+  font-size: 18px;
+  height: 32px;
+  line-height: 32px;
+}
+.top .nav li a:hover {
+  border-bottom: 2px #fff solid;
+}
+.top .nav li em {
+  color: #ffffff;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px;
+}
+.top .nav li.select a {
+  border-bottom: 2px #fff solid;
+}
+.footer {
+  background: #f6f8f8;
+  color: #697278;
+  font-size: 14px;
+  line-height: 26px;
+  padding: 19px 10px;
+  text-align: center;
+}
+.footer a {
+  color: #697278;
+}
+.footer em {
+  padding: 0 14px;
+}
+.index-classes-title {
+  margin-bottom: 30px;
+}
+.index-classes-title img {
+  height: auto;
+  width: 100%;
+}
+.index-classes {
+  margin-bottom: 80px;
+}
+.index-classes a {
+  height: 134px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 16.66666%;
+}
+.index-classes a span {
+  height: 100px;
+  overflow: hidden;
+  text-align: center;
+  width: 100px;
+}
+.index-classes a span img {
+  max-height: 100px;
+  max-width: 100px;
+}
+.index-classes a em {
+  color: #000000;
+  font-size: 24px;
+  height: 34px;
+  line-height: 34px;
+}
+.index-classes a.select span {
+  background: #e1e8ea;
+  border-radius: 10px;
+}
+.index-tab {
+  border: 1px #d2d2d2 solid;
+  margin-bottom: 35px;
+}
+.index-tab .index-tab-tit span {
+  border-bottom: 1px #d2d2d2 solid;
+  background: #efefef;
+  color: #b1b1b1;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: "SimHei";
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 50%;
+}
+.index-tab .index-tab-tit span i {
+  border-right: 1px #d2d2d2 solid;
+  height: 50px;
+  overflow: hidden;
+  width: 0;
+}
+.index-tab .index-tab-tit span.select {
+  border-bottom: 1px #fff solid;
+  background: #ffffff;
+  color: #000000;
+}
+.index-tab .index-tab-list li {
+  border-bottom: 1px #d2d2d2 solid;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 20px;
+}
+.index-tab .index-tab-list li p {
+  color: #697278;
+}
+.index-list-more {
+  color: #808080;
+  font-family: "SimHei";
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+}
+.index-list {
+  border-bottom: 1px #d2d2d2 solid;
+  padding: 20px;
+}
+.index-list a {
+  font-size: 16px;
+  line-height: 30px;
+}
+.index-list a span {
+  color: #000000;
+  font-weight: bold;
+  height: 30px;
+  overflow: hidden;
+  padding-right: 15px;
+}
+.index-list a em {
+  color: #697278;
+}
+.index-teacher li {
+  border: 1px #d2d2d2 solid;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.index-teacher li .index-teacher-img {
+  background: #f8f9f9;
+  padding: 10px;
+}
+.index-teacher li .index-teacher-img img {
+  height: auto;
+  width: 260px;
+}
+.index-teacher li .index-teacher-con {
+  font-size: 16px;
+  padding-left: 300px;
+  line-height: 30px;
+}
+.index-teacher li .index-teacher-con h4 {
+  font-weight: bold;
+}
+.index-teacher li .index-teacher-con p {
+  color: #697278;
+}
+@media only all and (max-width: 799px) {
+  .content .con,
+  .top .con {
+    width: 100%;
+  }
+  .html-logo-box {
+    display: none;
+  }
+  /* top */
+  .top {
+    height: 80px;
+  }
+  .top .logo {
+    display: block;
+    float: none;
+    padding-top: 10px;
+  }
+  .top .logo a {
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
+    width: 112px;
+  }
+  .top .logo img {
+    height: 30px;
+    width: 30px;
+  }
+  .top .nav {
+    display: block;
+    float: none;
+    height: 28px;
+    padding-top: 2px;
+  }
+  .top .nav li {
+    text-align: center;
+    width: 16%;
+  }
+  .top .nav li a {
+    display: inline-block;
+    float: none;
+    height: 26px;
+    line-height: 26px;
+  }
+  .top .nav li em {
+    height: 26px;
+    line-height: 26px;
+    padding: 0;
+  }
+  .top .nav li.nav4 {
+    width: 26%;
+  }
+  /* index */
+  .index-classes {
+    margin-bottom: 30px;
+  }
+  .index-classes a {
+    height: 106px;
+    width: 33.33333%;
+  }
+  .index-classes a span {
+    height: 65px;
+    width: 65px;
+  }
+  .index-classes a span img {
+    max-height: 65px;
+    max-width: 65px;
+  }
+  .index-classes a em {
+    font-size: 20px;
+  }
+  .index-tab .index-tab-tit span {
+    font-size: 20px;
+  }
+  .index-teacher li {
+    padding: 10px;
+  }
+  .index-teacher li .index-teacher-img {
+    background: #f8f9f9;
+    padding: 10px;
+  }
+  .index-teacher li .index-teacher-img img {
+    height: auto;
+    width: 100px;
+  }
+  .index-teacher li .index-teacher-con {
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 130px;
+  }
+}

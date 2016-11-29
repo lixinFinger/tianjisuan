@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "LiSu";
+  src: url("LiSu.woff") format("woff"),
+       url("LiSu.ttf") format("truetype"),
+       url("LiSu.eot") format("embedded-opentype"),
+       url("LiSu.svg") format("svg"),
+       url("LiSu.otf") format("opentype");
+}
